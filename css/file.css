@@ -1,1 +1,68 @@
+body{
+    background-image: linear-gradient(#00000040, #00000040), url("../pizza.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height: 100vh;  
 
+}
+.nav{
+background-color: #00000080 ;
+font-size: 20px;
+display:flex;
+padding: 1px;
+border-top-left-radius: 5px;
+font-family:  "Amatic SC", sans-serif;
+}
+.nav:hover{
+    background-color:black;
+}
+
+.home, .about, .contact, .menu{
+    margin: 1px;
+    padding: 20px;
+    
+}
+.home:hover,.about:hover,.contact:hover,.menu:hover,.lin:hover{
+    background-color: grey;
+}
+a{
+    color:white;
+    text-decoration-line: none;
+
+}
+.contant{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    font-family: "Amatic SC", sans-serif;
+}
+.lin{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: black;
+    padding: 25px;
+    font-size: 25px;
+    width: fit-content;
+    font-family: "Amatic SC", sans-serif;
+}
+.open{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    background-color: black;
+    color: white;
+
+    padding: 8px 10px;
+
+    font-size: 20px;
+    font-family: "Amatic SC", sans-serif;
+}
